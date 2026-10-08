@@ -1,0 +1,19 @@
+
+
+{
+  "default": {
+    "dryRun": false,
+    "paths": [
+      "e2etest/tests/features/**/*.feature"
+    ],
+    "require": [
+      "e2etest/tests/steps/**/*.ts"
+    ],
+    "requireModule": [
+      "tsx/cjs"
+    ],
+    "format": [
+      "progress"
+    ]
+  }
+}
