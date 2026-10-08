@@ -9,7 +9,7 @@ test('validate the loginpage',async ({page}) => {
     const log = new login(page)
     await log.navigate()
     await log.loginpage('standard_user','secret_sauce')
-   
+    console.log('login page validated successfully')
 
 
 
