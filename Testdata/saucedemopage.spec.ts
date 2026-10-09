@@ -11,6 +11,6 @@ test('validate the loginpage',async ({page}) => {
     await log.loginpage('standard_user','secret_sauce')
     console.log('login page validated successfully')
 
-
+    
 
 })
